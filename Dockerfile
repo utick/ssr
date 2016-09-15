@@ -15,7 +15,7 @@ ENV OBFS http_simple_compatible
 ENV PROTOCOL origin
 ENV EXT -v
 
-EXPOSE $PORT
+EXPOSE 2016
 
 # Configure container to run as an executable
 ENTRYPOINT ["/root/shadowsocks/shadowsocks/server.py"]
